@@ -1,0 +1,35 @@
+Definición de las columnas
+
+Pregnancies (Embarazos): Número de veces que la persona ha estado embarazada.
+Puede ser 0, ya que serían mujeres que nunca han estado embarazadas.
+
+Glucose (Glucosa): Concentración de glucosa en plasma (mg/dL) medida mediante una prueba
+de tolerancia a la glucosa de 2 horas.
+NO puede ser 0 en una persona viva.
+
+BloodPressure (Presión Arterial): Presión arterial diastólica (mm Hg).
+NO puede ser 0 ya que indicaría muerte clínica.
+
+SkinThickness (Espesor del Pliegue Cutáneo): Grosor del pliegue cutáneo en el tríceps (mm),
+medida de grasa corporal.
+NO puede ser 0 ya que es físicamente imposible.
+
+Insulin (Insulina): Nivel de insulina sérica a las 2 horas (mu U/ml).
+NO puede ser cero en una persona viva.
+
+BMI (Índice de Masa Corporal): Peso en kg dividido por la altura en metros al cuadrado.
+un BMI de 0 implicaría peso cero, lo cual es imposible.
+
+DiabetesPedigreeFunction (Función de Pedigrí de Diabetes): Puntuación que refleja el riesgo 
+genético de diabetes basado en antecedentes familiares.
+Técnicamente puede ser 0 (aunque es raro).
+
+Age (Edad): Edad de la persona en años.
+Puede ser 0 (ejemplo: bebés)
+
+Rangos médicamente válidos:
+'Glucose': (70, 200),
+'BloodPressure': (40, 120),
+'SkinThickness': (10, 60),
+'Insulin': (14, 300),
+'BMI': (18.5, 50)
